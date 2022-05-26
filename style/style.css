@@ -1,0 +1,154 @@
+*{
+    margin: 0%; /* отступ */
+    padding: 0%; /* внутренний отступ */
+    box-sizing: border-box; /* отсупы включается */
+}
+.header{
+    background: url("../images/header_bg.png") no-repeat; /* фон сайта задний */ /* повторение картинки */
+    height: 800px;/* высота */
+    background-repeat: no-repeat; /* повторение картинки откл вкл */
+}
+.header-content{
+    max-width: 1110px; /* ширина макс блока  */
+    width: 100%;
+    margin: 0 auto; /* регулировка отступа  */
+    height: 500px; /* высота  */
+    display: flex;
+    flex-direction: column;
+}
+.header-menu{
+    display: flex; /* включает флекс */
+    justify-content: space-between; /* передвигать контент */
+    align-items: center; /* по вертикале */
+}
+.nav-lago{
+    color: white;
+    text-decoration: none; /* отключение подчеркивание */
+    background: black; /* фон текста */
+    display: inline-block; /* строчно-блочный */
+    padding: 10px 5px; /* внутренний отсуп */
+    font-size: 25px; /* задает размер шрифта */
+    font-family: Arial; /* стиль шрифта */
+    font-weight: bold; /* жирность шрифта */
+    text-transform: uppercase; /* заглавные буквы делает */
+}
+.nav-message{
+    color: white; /* цвет букв */
+    text-decoration: none; /* декорация текста */
+    font-family: arial;
+    }
+    .header-title{
+        color: white;
+        text-transform: uppercase; /*делает заглавные */
+        font-family: arial; /* стиль шрифта */
+        font-size: 35px; /* размер шрифта */
+        font-weight: bold; /* жирность шрифта */
+        margin-bottom: 30px; /* отступ заголовка */
+        
+        }
+        .heider-about{
+            display: flex;
+            flex-direction: column; /*  */
+            align-items: center; /* по горизантале  */
+            flex-grow: 1; /* растянгивает на всю высоту или ширину родителя */
+            justify-content: center; /* передвигает контент */
+               
+        }
+        .header-call{
+            display: flex;
+            background: white;
+            color: black;
+            width: 300px;
+            justify-content:center;
+            padding: 15px 0px; 
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: arial;
+            font-weight: bold;
+        }
+        .main{
+            max-width: 1100px; /* макс ширина */
+            width: 100%;
+            margin: 0 auto; /* контект регулировка */
+            }
+        .about-title{
+            text-align: center;
+            text-transform: uppercase;
+            font-family: arial;
+            }
+            .aboud-description{
+                text-align: center;
+                font-family: arial;
+                margin: 30px 0;
+            }
+            .aboud-link{
+                display: flex;
+                background: black;
+                color: white;
+                width: 300px; /* ширинеа */
+                justify-content: center;
+                padding: 15px 0; /* внутреннию рамку */
+                margin: 0 auto;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-family: arial;
+                font-weight: bold;
+            }
+            .myworks-title{
+                text-align: center;
+                text-transform: uppercase;
+                font-family: arial;
+                margin: 50px 0;
+                
+            }
+            .card{
+                max-width: 350px;
+                width: 100%;
+                border: 1px solid black;
+                padding: 15px 5px;
+                margin-bottom: 15px;
+            }
+            .card-img{
+                width: 100%;
+                
+                }
+                .card-title{
+                    text-align: center;
+                    text-transform: uppercase;
+                    font-family: arial;
+                    margin-bottom: 20px;
+                }
+                .card-description{
+                    text-align: center;
+                   font-family: Arial;
+                   margin: 20px 0;
+                }
+                .card-link{
+                    display: flex;
+                    background: black;
+                    color: white;
+                    width: 150px; /* ширинеа */
+                    justify-content: center;
+                    padding: 10px 0; /* внутреннию рамку */
+                    margin: 0 auto;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-family: arial;
+                   border-radius: 11px;
+                }
+                .gallery{
+                    display: flex;
+                    flex-wrap: wrap; 
+                    justify-content: space-between;
+                }
+                .fotter{
+                    background: black;
+                    padding: 20px 0;
+                    display: flex;
+                    justify-content: center;
+                }
+                .fotter-link{
+                    margin-right: 50px;
+                }
+            
+              
